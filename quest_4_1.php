@@ -15,9 +15,9 @@ arsort($indiana_movies);
     <title>Document</title>
 </head>
 <body>
-    <?php foreach ($indiana_movies as $key => $movie) : ?>
+    <?php foreach ($indiana_movies as $key => $movie_date) : ?>
     <ul>
-        <li><?= $movie . ': ' . $key . ' - '; ?></li>
+        <li><?= $movie_date . ': ' . $key . ' - '; ?></li>
     </ul>
     <?php endforeach; ?>
 </body>
