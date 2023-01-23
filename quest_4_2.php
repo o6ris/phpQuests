@@ -18,7 +18,7 @@ arsort($indiana_movies);
     <?php foreach ($indiana_movies as $key => $movie) : ?>
     <ul>
         <li>
-            <?= $key . ': '; ?>
+            <?= 'In the movie ' . $key . ', the main actors are: '; ?>
             <?php foreach ($indiana_movies[$key] as $key => $actors) : ?>
             <ul>
                 <li><?= $actors . ': '; ?></li>
